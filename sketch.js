@@ -4,7 +4,7 @@ var Door, DoorGroup, DoorImg;
 var climber, climberimage, ClimberGroup ;
 var Ghost , Ghost_Img ;
 function preload() {
-  tower_img = loadImage("/tower.png");
+  tower_img = loadImage("tower.png");
   DoorImg = loadImage("door.png");
   DoorGroup = createGroup();
   climberimage = loadImage("climber.png");
